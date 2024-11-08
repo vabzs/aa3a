@@ -1,0 +1,13 @@
+git --version
+git config --global user.name "pawan"
+git config --global user.email pawan001@gmail.com 
+mkdir samplerepo
+cd samplerepo
+git init
+git add add.cpp
+git status 
+git commit -m "adding add.cpp"
+git log
+git remote add origin "link of our git hub"
+git remote -v
+git branch -v
